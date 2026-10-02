@@ -101,6 +101,7 @@ I checked the explanation against the IBM source, especially the ideas of tokens
 I learned that an LLM does not simply search a database and copy an answer. It processes the input as tokens and generates a response step by step by predicting likely next tokens. I also understood why a response can sound convincing while still containing incorrect information, so the output should be verified when accuracy is important.
 
 4) Hallucination Experiment: Can AI Sound Confident and Still Be Wrong?
+
 I tested the same factual question with two different AI assistants.
 Question asked to both tools:  
 What is the difference between RAM and ROM?
