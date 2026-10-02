@@ -1,5 +1,6 @@
  Week 01 Questions
 1) AI → ML → Deep Learning → Generative AI → Agents
+   
 a. Artificial Intelligence (AI)
 Artificial Intelligence (AI) is the broader concept of making computers or machines perform tasks that normally need some form of human intelligence. These tasks can include understanding information, recognizing things, solving problems, making decisions, and responding to people.
 EX: Voice assistants such as Siri or Google Assistant can understand a user's request and provide a response.
