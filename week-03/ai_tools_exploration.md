@@ -2,31 +2,33 @@
 
 ## 1. Objective
 
-The objective of this activity is to explore AI tools for engineering learning, practise prompt engineering, compare AI-generated responses, and verify technical information using reliable sources.
+The objective of this activity is to explore AI tools for engineering learning, improve prompts, compare AI-generated explanations, and verify technical claims using reliable sources.
 
 ## 2. AI Tools Explored
 
 ### ChatGPT
 
-ChatGPT helps explain technical concepts, generate Python code, debug programs, and support engineering learning.
+ChatGPT was used to explain the VLSI Physical Design flow, organise technical concepts, and support prompt improvement.
 
 ### Google Gemini
 
-Google Gemini supports research, writing, coding, and explanations of technical concepts.
+Gemini was used to explain the same Physical Design topic. Its response included explanations of the five main stages and practical analogies.
 
 ### Claude
 
-Claude can help analyse documents, explain complex topics, assist with coding, and organise technical information.
+Claude is an AI assistant that can support technical explanations, document analysis, writing, and coding.
 
 ### NotebookLM
 
-NotebookLM helps users understand and summarise information from provided sources and answer questions grounded in those sources.
+NotebookLM helps users study provided sources, summarise documents, and ask questions grounded in reference material.
 
 ### Perplexity
 
-Perplexity helps with web-based research by providing answers with links to sources that can be checked for accuracy.
+Perplexity supports web research and helps users discover sources that can be checked against original documentation.
 
-## 3. Prompt Engineering
+The descriptions of Claude, NotebookLM, and Perplexity are introductory observations; I have not claimed to have tested every feature of these tools.
+
+## 3. Prompt Engineering Experiment
 
 ### Basic Prompt
 
@@ -34,61 +36,64 @@ Explain Physical Design in VLSI.
 
 ### Improved Prompt
 
-Act as a VLSI Physical Design engineer and explain the Physical Design flow to a beginner. Describe floorplanning, power planning, placement, clock tree synthesis, routing, and timing analysis. Explain the purpose of each stage, provide a simple example, and use clear language suitable for a BTech ECE student.
+I am a BTech ECE student specialising in VLSI Physical Design. Explain the Physical Design flow in beginner-friendly language. Cover floorplanning, placement, clock tree synthesis (CTS), routing, and timing analysis. Explain the purpose of each stage and give one simple example. Use clear headings and keep the explanation concise.
 
 ### Observation
 
-The improved prompt provides a specific role, audience, topic, and list of expected concepts. This helps guide the AI towards a more structured and relevant explanation.
+The improved prompt specifies the audience, topic, concepts to cover, examples required, and preferred format. This gives the AI a clearer direction and produces a more structured explanation.
 
-## 4. Comparison of Two AI Tools
+## 4. Comparison of ChatGPT and Google Gemini
 
-Tools selected: ChatGPT and Google Gemini.
+### Task
 
-I will use the same improved prompt in both tools and evaluate their responses.
+Both tools were used to explain the VLSI Physical Design flow using the same improved prompt.
 
-| Evaluation Criterion | ChatGPT | Google Gemini |
+### Comparison
+
+| Criterion | ChatGPT | Google Gemini |
 |---|---|---|
-| Clarity of explanation | To be recorded after testing | To be recorded after testing |
-| Technical accuracy | To be verified | To be verified |
-| Coverage of Physical Design stages | To be recorded after testing | To be recorded after testing |
-| Usefulness for beginners | To be recorded after testing | To be recorded after testing |
+| Main concepts | Explained the main Physical Design stages | Explained all five stages |
+| Technical detail | Provided a beginner-friendly overview | Included terms such as GDSII, clock skew, DRC, setup, and hold |
+| Examples | Used a general explanatory approach | Provided a separate analogy for each stage |
+| Structure | Organised the explanation by stage | Used headings, purposes, and examples |
+| Follow-up learning | Can explain concepts in further detail | Suggested exploring setup and hold optimisation |
 
 ### Comparison Findings
 
-After testing both tools, I will compare their explanations, examples, technical accuracy, and completeness. I will verify important technical statements using reliable documentation instead of assuming that either tool is always correct.
+Both tools explained floorplanning, placement, clock tree synthesis, routing, and timing analysis. Gemini's response included more detailed technical terminology and a separate analogy for each stage. These features made its answer useful for visualising the concepts.
+
+The comparison is based on the responses observed in this experiment. Technical accuracy still needs to be checked against reliable references.
 
 ## 5. Verification of an AI-Generated Claim
 
 ### Claim
 
-The VLSI Physical Design flow includes placement, clock tree synthesis, routing, and timing analysis.
+Clock tree synthesis creates a clock distribution network to deliver the clock signal to sequential elements while controlling clock skew and latency.
 
-### Reliable Source
+### Verification Source
 
-OpenROAD Documentation:
+OpenROAD documentation:
 
 https://openroad.readthedocs.io/
 
-### Verification Process
+### Verification Method
 
-1. Read the official OpenROAD documentation.
-2. Identify the documented stages of the Physical Design flow.
-3. Compare the documentation with the AI-generated explanation.
-4. Record whether the claim is supported and note any qualifications.
+1. Consult the official documentation for clock tree synthesis.
+2. Check the documented purpose of clock distribution and the relevant configuration or reporting options.
+3. Compare the documented behaviour with the AI-generated claim.
+4. Record the result and any limitations after checking the source.
 
 ### Verification Result
 
-The OpenROAD documentation describes implementation stages such as floorplanning, placement, clock tree synthesis, routing, and timing-related analysis. This supports the main claim that these are important activities in a digital Physical Design flow.
-
-The exact sequence and available operations depend on the implementation flow and configuration.
+To be completed after checking the relevant official documentation. The claim should not be marked as verified until the source has been inspected.
 
 ## 6. Responsible AI Usage
 
-- Verify technical information against reliable sources.
-- Do not share confidential RTL, proprietary chip designs, passwords, or restricted project information.
-- Review generated code and explanations before using them.
-- Keep a record of sources used for verification.
+- Check technical claims using official documentation or other reliable references.
+- Do not assume that a confident or detailed answer is automatically correct.
+- Avoid uploading confidential design information to public AI tools.
+- Review and understand AI-generated code before using it.
 
 ## 7. Conclusion
 
-This activity explores how AI tools can support engineering learning and how prompt engineering can improve the relevance of responses. Comparing AI tools and verifying technical claims helps develop critical thinking and responsible AI usage.
+This activity demonstrated how prompt improvement can guide AI responses and how two tools can explain the same engineering topic differently. Comparing responses helps identify differences in structure, terminology, and examples. Independent verification remains necessary before accepting technical claims.
