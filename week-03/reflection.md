@@ -1,37 +1,30 @@
 # Week 03 - Reflection
 
-## 1. What did I learn this week?
+## 1. Which AI tool was most useful to you, and for what task?
 
-This week, I learned about different AI tools, including ChatGPT, Gemini, Claude, NotebookLM, and Perplexity. I understood how these tools can help with technical learning, research, coding, and problem-solving.
+ChatGPT was useful for understanding VLSI Physical Design concepts and organising technical information into clear explanations. Google Gemini was also useful because it explained the Physical Design stages using practical analogies. Comparing both responses helped me understand how different AI tools can explain the same topic in different ways.
 
-I also learned that providing clear instructions and context in a prompt can improve the relevance of an AI response.
+## 2. What change to a prompt improved the answer most?
 
-## 2. How can AI tools help me in Physical Design?
+Adding context about my BTech ECE background and VLSI Physical Design specialisation improved the prompt. Specifying the topics to cover, asking for simple examples, and requesting clear headings made the response more structured and relevant to my learning needs.
 
-AI tools can help me understand Physical Design concepts such as floorplanning, placement, clock tree synthesis, routing, and timing analysis. They can also help explain technical documentation, clarify errors, and support Python learning.
+## 3. What is one claim you verified, and what did the source establish?
 
-However, AI-generated technical information must be verified before being used.
+I checked the claim that clock tree synthesis builds a clock distribution network and helps manage clock timing. The official OpenROAD Clock Tree Synthesis documentation describes clock-tree construction, clock-buffer insertion, and options related to balancing clock-tree latency. This supported the main claim while showing that the results depend on the design and configuration.
 
-## 3. What did I learn about prompt engineering?
+Source: https://openroad.readthedocs.io/en/latest/main/src/cts/README.html
 
-I learned that a detailed prompt should specify the task, context, intended audience, and expected output. For example, asking for a step-by-step explanation of the Physical Design flow is more useful than simply asking what Physical Design is.
+## 4. What did you learn about the open-source VLSI tool you explored?
 
-Improving prompts can make responses more structured and relevant to my learning objectives.
+I explored the official documentation for KLayout, an open-source layout viewer and editor for integrated circuit designs. I learned that it supports layout formats such as GDS and OASIS and provides features for inspecting layout layers, cells, and geometric shapes. I also learned that KLayout is useful for layout inspection but is not a complete replacement for a commercial Physical Design implementation tool such as Cadence Innovus.
 
-## 4. Why is verifying AI-generated information important?
+## 5. What are two questions you want answered in the ML masterclass?
 
-AI tools may provide incomplete or inaccurate information. In VLSI engineering, technical accuracy is important because misunderstandings can affect design decisions and debugging.
-
-I should compare AI-generated answers with official documentation, textbooks, and reliable technical sources instead of accepting every answer without checking.
-
-## 5. What will I improve next?
-
-I will continue learning Python through CS50P, practise writing effective prompts, and compare AI-generated explanations with reliable sources.
-
-I will also strengthen my understanding of the Physical Design flow and explore tools such as Cadence Innovus. I will continue learning about open-source VLSI tools to understand their similarities and differences from commercial EDA tools.
+1. How can machine learning be used to optimise Physical Design tasks such as placement, routing, and timing optimisation?
+2. How can we evaluate an ML model's accuracy and reliability before applying its predictions to real VLSI engineering problems?
 
 ## Final Reflection
 
-This week's activities helped me understand how AI tools can support engineering learning when used responsibly. I learned the importance of clear prompts, independent verification, and reliable references. I also explored the role of Physical Design tools in digital IC implementation.
+This week's activities helped me understand how AI tools can support engineering learning, how prompt improvements can make explanations more relevant, and why technical claims need to be checked against reliable documentation. Exploring KLayout also introduced me to an open-source tool for inspecting IC layouts.
 
-Going forward, I will use AI as a learning assistant while continuing to develop my own technical knowledge and problem-solving skills.
+I want to continue strengthening my Physical Design knowledge and Python skills while learning how AI and machine learning can support engineering workflows. I will use AI as a learning assistant and take responsibility for verifying and understanding the information I submit.
